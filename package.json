@@ -5,12 +5,11 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "start": "ng serve",
-    "buildbuild": "ng build",
+    "build": "ng build --env=prod",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy": "./node_modules/.bin/deploy"
+    "deploy": "ng build --base-href \"/raster-foundry-docs/\" && angular-cli-ghpages"
   },
   "private": true,
   "dependencies": {
