@@ -85,7 +85,7 @@
 .btn-secondary {
   background: rgba($color-1, .8);
   color: $white;
-  border-radius: rem(100px);
+  border-radius: rem(3px);
 
   &:hover {
     background: $color-1;
@@ -250,13 +250,13 @@
     }
 
     &:first-child {
-      border-top-left-radius: rem(50px);
-      border-bottom-left-radius: rem(50px);
+      border-top-left-radius: rem(3px);
+      border-bottom-left-radius: rem(3px);
     }
 
     &:last-child {
-      border-top-right-radius: rem(50px);
-      border-bottom-right-radius: rem(50px);
+      border-top-right-radius: rem(3px);
+      border-bottom-right-radius: rem(3px);
     }
   }
 
